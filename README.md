@@ -30,6 +30,8 @@ Since it is a classification model, we first try with popular machine learning c
 ## Evaluating the Model
 Since it is a classification model, we have to choose our evaluation metric properly as the measure of accuracy can be deceiving. So for the all the models we observe the `classification report`, which includes the metrics precision, recall, f1-score. Apart from that, we would also visualize the coonfusion matrix.
 
+To view the results of the individual model, please view the iPython Notebook.
+
 ## Conclusion
 Therefore, the proposed model is Random Forests, as it is an ensemble method, which is very popular to use when we see class imabalances gives us the best accuracy, precision, recall.
 Here are the results :
