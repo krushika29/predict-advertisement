@@ -2,7 +2,24 @@
 
 ## Overview
 
-Aim is to classify images as **Ad** (Advertisement) and **Non-Ad** (Not Advertisement). Given samples in the training set are 2623 and features are 1559. There are three continuos features which are height, width and aspect ratio of the image, where as other variables are categorical.
+Aim is to classify images as **Ad** (Advertisement) and **Non-Ad** (Not Advertisement). Given samples in the training set are 2623 and features are 1559. There are three continuos features which are height, width and aspect ratio of the image, where as other variables are categorical. Below is the structure of the project
+```
+predict-advertisement/
+├── data
+│   ├── column_names.txt
+│   ├── documentation.txt
+│   ├── test.csv                            <-- train file
+│   └── training.csv                        <-- test file
+├── plots
+│   ├── best_cm.png
+│   ├── cv_results.png
+│   ├── distplot.png
+│   └── tgt_dist.png
+├── predict-advertisement.ipynb            <-- iPython Notebook of the project
+├── predict-advertisement.py               <-- Equivalent python file of the project
+├── README.md
+└── test_predicted.csv                     <-- predicted test file
+```
 
 
 ## Methodology
