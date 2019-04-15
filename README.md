@@ -32,6 +32,17 @@ Since it is a classification model, we have to choose our evaluation metric prop
 
 To view the results of the individual model, please view the iPython Notebook.
 
+## Cross Validation
+After training the above mentioned models, we can see that Random Forests classifier has performed the best and inorder to make sure we will perform k-fold cross validation and observe how the accuracy changes if we change the dataset. If it is consistent, then we can confirm that on our dataset, Random Forest classifier works the best.
+Below is the output of the cross validation on Random Forests model.
+
+```
+Cross Validation Scores
+[0.97727273 0.97718631 0.98473282 0.96946565 0.96564885 0.96946565 0.98091603 0.98473282 0.97709924 0.98854962]
+
+```
+![k-fold cross validation](plots/cv_results.png)
+
 ## Conclusion
 Therefore, the proposed model is Random Forests, as it is an ensemble method, which is very popular to use when we see class imabalances gives us the best accuracy, precision, recall.
 Here are the results :
